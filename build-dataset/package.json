@@ -1,0 +1,23 @@
+{
+  "name": "build-dataset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "bluebird-retry": "^0.11.0",
+    "csv-writer": "^1.6.0",
+    "highland": "^2.13.5",
+    "highland-concurrent-flatmap": "^1.1.0",
+    "highland-pagination": "^0.1.2",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
