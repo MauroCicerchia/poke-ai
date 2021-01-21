@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js && python3 sort.py",
-    "sort": "python3 sort.py"
+    "start": "node src/index.js && python3 src/sort.py",
+    "sort": "python3 src/sort.py"
   },
   "keywords": [],
   "author": "",
